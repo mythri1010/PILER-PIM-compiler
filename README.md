@@ -53,8 +53,8 @@ Planned LLVM backend for broader compatibility
 Modular pipeline for testing new PIM architectures
 
 # 👥 Team
-[![GitHub](https://img.shields.io/badge/Profile-mythri1010-blue?style=flat&logo=github)](https://github.com/mythri1010)  Mythri Vellanki
-[![GitHub](https://img.shields.io/badge/Profile-kamalesh-og-blue?style=flat&logo=github)](https://github.com/kamalesh-og) Kamalesh 
+- [@mythri1010](https://github.com/mythri1010)
+- [@kamalesh-og](https://github.com/kamalesh-og)
 
 # Documentation 
 📚 **[Project Documentation](https://github.com/mythri1010/PILER-PIM-compiler/raw/main/Project-documentation.pdf)**  
