@@ -52,4 +52,11 @@ Planned LLVM backend for broader compatibility
 🔬 Hackable Design
 Modular pipeline for testing new PIM architectures
 
+# Team
+@Kamalesh 
+@Mythri Vellanki (Myself)
+
+# Documentation 
+📚 **[Project Documentation](https://github.com/your-username/your-repo/raw/main/Project-documentation.pdf)**  
+
 ## "PIMatrix Compiler bridges the abstraction gap between algorithms and in-memory hardware, proving that revolutionary speedups can be both accessible and elegant. 🧪🔧📈"
