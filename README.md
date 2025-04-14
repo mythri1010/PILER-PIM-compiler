@@ -5,23 +5,23 @@ This compiler the bridges the gap between high-level code and next-generation 
 The PIMatrix Compiler is an end-to-end compilation framework designed to bridge the gap between high-level programming abstractions and Processor-in-Memory (PIM) architectures. It automatically analyzes C/C++ code containing matrix operations (particularly matrix multiplication), optimizes them for PIM execution, and generates custom ISA (Instruction Set Architecture) instructions tailored for in-memory computing. By doing so, it eliminates the need for manual low-level PIM programming while maximizing hardware efficiency.
 
 # Technical Architecture
---2.1 Compiler Pipeline
+2.1 Compiler Pipeline
 The PIMatrix Compiler follows a multi-stage transformation process to bridge high-level code with PIM execution:
-# Matrix Optimization
+Matrix Optimization--
 Static Analysis: Examines matrix sizes, memory access patterns, and data dependencies
 Dependency Analysis: Verifies operation parallelizability to maximize PIM core utilization
-# PIM ISA Generation
+PIM ISA Generation--
 Converts optimized matrix operations into PIM-specific instructions:
 PROG: Configures PIM cores for Multiply-Accumulate (MAC) operations
 MEM: Manages data movement between CPU and PIM memory banks
 EXE: Executes computational kernels directly in memory
 The phase generates complete memory-mapped addressing schemes for all matrices.
 
---2.2 Memory Management
+2.2 Memory Management
 The compiler implements sophisticated memory handling for PIM architectures:
-# Bank Allocation
+Bank Allocation--
 Distributes matrices across dedicated PIM memory banks (A, B, C) using a contention-aware scheduling algorithm. This ensures balanced memory bandwidth utilization across compute units.
-# Transposition Handling
+Transposition Handling--
 Automatically transposes matrix B during memory allocation to enable efficient row-wise access patterns in PIM cores, eliminating the need for explicit transpose operations in source code.
 
 ## **💎 Why It Matters & Who Needs It**  
